@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Razorfish</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #ffffff;
+            color: #000;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+            background: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        
+        .logo a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        ul {
+            display: flex;
+            gap: .6rem;
+            list-style-type: none;
+            background-color: transparent;
+            overflow: hidden;
+        }
+        
+        li a {
+            display: inline-block;
+            padding: .3rem 1rem;
+            color: #000;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 600;
+            letter-spacing: .7px;
+            border-radius: 36px;
+            line-height: 2;
+            transition: .3s;
+        }
+        
+        li a.active,
+        li a:hover {
+            color: #52489C;
+        }
+        
+        #team {
+            padding: 6rem 0;
+        }
+        
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .member {
+            text-align: center;
+            max-width: 200px;
+        }
+        
+        .member img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        
+        .member h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .member p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: #666;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <a href="#">Razorfish</a>
+                </div>
+                <ul>
+                    <li><a href="jishnu.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="people.html" class="active">People</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login/Signup</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+    
+    <section id="team">
+        <div class="container">
+            <div class="main">
+                <div class="member">
+                    <img src="jishnu.jpg" alt="CEO">
+                    <h4>JISHNUPRIYAN</h4>
+                    <p>CEO</p>
+                </div>
+                <div class="member">
+                    <img src="rdj.jpg" alt="Co-Founder">
+                    <h4>Robert Downey</h4>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="member">
+                    <img src="Kevin-Hart.jpg" alt="Director">
+                    <h4>Kevin Hart</h4>
+                    <p>Director</p>
+                </div>
+                <div class="member">
+                    <img src="joe.jpg" alt="Assistant Director">
+                    <h4>Charlie Heaton</h4>
+                    <p>Assistant Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        &copy; 2024 Razorfish. All rights reserved. Jishnupriyan(212223240061)
+    </footer>
+</body>
+</html>
